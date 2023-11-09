@@ -1,0 +1,290 @@
+html {
+  --primary-color: #ffc800;
+  --secondary-color: #eaa734;
+  --gray: #e0e0e0;
+  --dark-gray: #6b6b6b;
+}
+* {
+  font-family: "Inter";
+}
+#header {
+  padding: 8px 12px;
+  width: calc(100% - 8px);
+  margin: -8px 0 0 -8px;
+  background-color: var(--primary-color);
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  height: auto;
+}
+#header h1 {
+  font-size: 1em;
+  font-weight: bold;
+  display: inline;
+}
+#header ul {
+  /* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul */
+  list-style-type: none;
+  display: inline;
+  margin-inline: 0;
+  margin-block: 0;
+  padding-inline: 0;
+}
+#header ul li {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  display: inline-block;
+  cursor: pointer;
+  color: #000;
+}
+
+#content {
+  padding: 10px 10%;
+}
+
+
+/* hook */
+#hook {
+  font-size: 1.7em;
+  margin: 0 auto;
+  font-weight: bold;
+}
+#hook button {
+  padding: 12px 18px;
+  background-color: var(--primary-color);
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  /* Reference used: https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform */
+  text-transform: uppercase;
+  box-shadow: 0 0 5px var(--dark-gray);
+}
+#hook button:hover {
+  background-color: var(--secondary-color);
+}
+/* about-carp */
+#about-carp {
+  display: flex;
+  @media (min-width: 1000px) {
+    flex-direction: row;
+  }
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+}
+#about-carp #about-carp-image-container {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 1000px) {
+    width: 500px;
+  }
+}
+#about-carp #about-carp-image-container img {
+  border-radius: 10px;
+  box-shadow: 0 0 5px var(--dark-gray);
+  @media (min-width: 1000px) {
+    margin: auto 20px auto 0;
+    width: initial;
+  }
+  @media (max-width: 1000px) {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+.image-credits, .image-credits a {
+  color: var(--dark-gray);
+  font-size: 0.7em;
+}
+#about-carp #about-carp-description {
+  @media (min-width: 1000px) {
+    margin-left: 10px;
+  }
+}
+#problematic-species-h2 {
+  text-align: center;
+}
+/* species-info */
+#species-info {
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+  list-style-type: none;
+  margin-inline: 0;
+  margin-block: 0;
+  padding-inline: 0;
+  
+}
+#species-info .species {
+  width: 25%;
+  @media (max-width: 900px) {
+    width: 100%;
+  }
+  @media (min-width: 900px) {
+    width: 25%;
+  }
+  padding: 10px;
+  margin: 10px;
+  
+  background-color: #ffc800;
+  height: auto;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 10px;
+}
+#species-info .species .species-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px var(--dark-gray);
+}
+#species-info .species .common-name {
+  font-size: 1.3em;
+  font-weight: bold;
+  /* Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/font-style */
+  font-style: italic;
+}
+#species-info .species .scientific-name {
+  font-style: italic;
+}
+#invaded-states-stats ul {
+  list-style-type: none;
+  margin-inline: 0;
+  margin-block: 0;
+  padding-inline: 0;
+  display: flex;
+  flex-direction: column;
+}
+#invaded-states-stats ul li {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  display: block;
+  background-color: #ff0000;
+}
+#invaded-states-stats ul #grass-carp-invasion-stat {
+  width: 94%;
+  background-color: #ffc800;
+}
+#invaded-states-stats ul #bighead-carp-invasion-stat {
+  width: 56%;
+  background-color: #eaa734;
+}
+#invaded-states-stats ul #silver-carp-invasion-stat {
+  width: 50%;
+  background-color: #dda23c;
+}
+#invaded-states-stats ul #black-carp-invasion-stat {
+  width: 18%;
+  background-color: #af8741
+}
+#invaded-states-stats ul li .invasion-number {
+  font-weight: bold;
+}
+
+#problems-image {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px var(--dark-gray);
+}
+
+#cssc-image {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 5px var(--dark-gray);
+}
+
+#tips-cards {
+  list-style-type: none;
+  margin-inline: 0;
+  margin-block: 0;
+  padding-inline: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+#tips-cards li {
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  padding: 10px;
+
+  margin: 10px;
+  transition-duration: 0.5s;
+  z-index: 1;
+  @media (min-width: 600px) {
+    width: 40%;
+  }
+  @media (max-width: 600px) {
+    width: auto;
+  }
+}
+#tips-cards li:hover {
+  /* Reference: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate */
+  transform: rotate(-3deg);
+}
+#tips-cards li .card-heading {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#footer {
+  background-color: var(--gray);
+  margin: 0 0 -8px -8px;
+  border-radius: 25px 25px 0 0;
+  width: calc(100% - 25px);
+  color: #000000;
+  padding: 20px;
+}
+#footer #expand-resources h3 {
+  display: inline;
+  vertical-align: middle;
+}
+#footer #expand-resources #expand-resource-button {
+  border: none;
+  border-radius: 10px;
+  background-color: var(--gray);
+  padding: 5px;
+  vertical-align: middle;
+}
+#footer #expand-resources #expand-resource-button:hover {
+  background-color: var(--dark-gray);
+}
+#footer #expand-resources #expand-resource-button img {
+  margin: 0;
+}
+#footer #expand-resources #expanded-resources p {
+  /* Adaptation of https://resilienteducator.com/instructional-design/hanging-indents-in-html-and-css-for-instructional-designers/ */
+  padding-left: 0.5in;
+  text-indent: -0.5in;
+}
+#footer #expand-resources #expanded-resources p, #footer #expand-resources #expanded-resources em {
+  font-family: serif;
+} 
+#end-text {
+  margin-top: 50px;
+  text-align: center;
+}
+.expand-citation {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--gray);
+  cursor: pointer;
+}
+.expand-citation img {
+  width: 10px;
+  height: 10px;
+}
+.expanded-citation {
+  margin: 0 5px;
+  font-size: 0.7em;
+  font-style: normal;
+}

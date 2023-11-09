@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- I forgot how to link the stylesheet, so thanks https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link-->
+    <link rel="stylesheet" href="./stylesheet.css">
+    <!-- Font code from Google Fonts https://developers.google.com/fonts/docs/css2 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter">
+    <!-- Viewport tag: https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="./script.js" defer></script>
+    <title>Invasive Species: Asian Carp</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Invasive Species: Asian Carp</h1>
+      <ul id="header-buttons">
+        <a href="https://github.com/normalperson543/asian-carp-invasive-species"><li id="contrib-button">Contribute on GitHub</li></a>
+        <!-- Partial ToC inspiration: https://www.tipsandtricks-hq.com/simple-table-of-contents-toc-using-pure-html-and-css-code-9217 -->
+        <a href="#footer"><li id="sources-button">Sources</li></a>
+        <input type="checkbox" id="show-citations-checkbox" checked/> <label for="show-citations-checkbox">Show citations</label>
+      </ul>
+    </div>
+    <div id="content">
+      <div id="hook">
+        <p>Asian carp are invasive to the United States and can pose a risk to the ecosystem and economy.</p>
+        <p><a href="#take-action"><button>Take Action</button></a> <a href="#about-carp"><button>Learn More</button></a></p>
+      </div>
+      <div id="about-carp">
+        <div id="about-carp-image-container">
+          <img src="./assets/asian-carp-jumping-fish.jpg" alt="Picture of silver carp jumping out of the water"/>
+          <p class="image-credits">Image credit: <a href="https://fws.gov/media/silver-carp-jumping">"Silver carp jumping"</a> by Ryan Hagerty/USFWS - Public Domain. Retrieved from U.S Fish and Wildlife Service, fws.gov</p>
+        </div>
+        <div id="about-carp-description">
+          <h2>What is Asian Carp?</h2>
+          <p>Asian carp can refer to the types of fish found in Asia. In North America, Asian carp can refer to the bighead or silver carp in North America <span class="citation">(New York Invasive Species Information, 2019)</span>. Black carp and grass carp can also be considered Asian carp, as they are native to Asia <span class="citation">("Invasive Carp | National Invasive Species Information Center", n.d.)</span>.</p>
+          <p>The bighead, grass, black and silver carp are all <em>invasive</em> to the US as identified by the USDA <span class="citation">("Invasive Carp | National Invasive Species Information Center", n.d.)</span>. These species may also be called <em>invasive carp</em> <span class="citation">(Biological Threats and Invasive Species Research Program, 2022)</span>.</p>
+          <p>Throughout this page, "Asian carp" will refer to the species of carp that were originally native to Asia but may have invaded the United States. More specifically, we refer to the bighead, grass, black and silver carp.</p>
+        </div>
+      </div>
+      <p>Asian carp are primarily invasive because of these key factors.</p>
+      <ul>
+        <li>They have been found in places outside of their native areas <span class="citation">("Invasive Carp | National Invasive Species Information Center", n.d.)</span>.</li>
+        <li>They can grow very fast <span class="citation">("Invasive Carp | National Invasive Species Information Center", n.d.)</span>.</li>
+        <li>Their populations can also grow very fast <span class="citation">(U.S. Geological Survey, n.d.)</span>.</li>
+        <li>They have negative effects on our ecosystem <span class="citation">(National Park Service, 2023)</span>.</li>
+        <li>They can outcompete native species <span class="citation">("Invasive Carp | National Invasive Species Information Center", n.d.)</span>.</li>
+        <li>They have a very big appetite for food <span class="citation">(Holmes, 2021)</span>.</li>
+      </ul>
+      <h2 id="problematic-species-h2">The Problematic Species</h2>
+      <ul id="species-info">
+        <li class="species">
+          <img src="./assets/bighead-carp-pile.jpg" class="species-image" alt="Image of multiple bighead carp in a pile"></img>
+          <p class="image-credits"><a href="https://commons.wikimedia.org/wiki/File:0414jfRiverside_Hypophthalmichthys_nobilis_Masantol_Roads_Pampanga_River_Districts_Villagesfvf_07.JPG">Judgefloro</a>, Public domain, via Wikimedia Commons</p>
+          <p class="common-name">Bighead Carp</p>
+          <p class="scientific-name">Hypophthalmichthys nobilis <span class="citation">("Bighead Carp | National Invasive Species Information Center", n.d.)</span></p>
+          <ul class="species-facts">
+            <li>Averages about 30-40 pounds <span class="citation">(New York Invasive Species Information, 2019)</span></li>
+            <li>Dark gray body, that on the underside, fades to white <span class="citation">("Hypophthalmichthys nobilis (Richardson, 1845)"), 2023)</span></li>
+            <li>Dark blotches on side <span class="citation">("Hypophthalmichthys nobilis (Richardson, 1845)"), 2023)</span></li>
+            <li>Lives at up to 20 years <span class="citation">(New York Invasive Species Information, 2019)</span></li>
+            <li>Matures at about 7 years <span class="citation">(New York Invasive Species Information, 2019)</span></li>
+          </ul>
+        </li>
+        <li class="species">
+          <img src="./assets/grass-carp.jpg" class="species-image" alt="Grass carp held by person's hands"></img>
+          <p class="image-credits"><a href="https://commons.wikimedia.org/wiki/File:Grass_carp_01.jpg">USFWS</a>, Public domain, via Wikimedia Commons</p>
+          <p class="common-name">Grass Carp</p>
+          <p class="scientific-name">Ctenopharyngodon idella <span class="citation">(Ctenopharyngodon idella (Valenciennes in Cuvier and Valenciennes, 1844), 2020)</span></p>
+          <p class="species-facts">
+            <ul>
+              <li>Olive-brown dorsal side <span class="citation">("Ctenopharyngodon idella (Valenciennes in Cuvier and Valenciennes, 1844)", 2020)</span></li>
+              <li>Large, dark scales  <span class="citation">("Ctenopharyngodon idella (Valenciennes in Cuvier and Valenciennes, 1844)", 2020)</span></li>
+              <li>White or yellow belly <span class="citation">("California's Invaders: Grass Carp", n.d.)</span></li>
+              <li>Lighter coloration than black carp <span class="citation">("California's Invaders: Grass Carp", n.d.)</span></li>
+            </ul>
+          </p>
+        </li>
+        <li class="species">
+          <img src="./assets/black-carp.jpg" class="species-image" alt="Person holding black carp"></img>
+          <p class="image-credits"><a href="https://commons.wikimedia.org/wiki/File:Mylopharyngodon_piceus.jpg">Leo Nico, (United States Geological Survey)(Zp at cs.wikipedia)</a>, Public domain, via Wikimedia Commons. Image credit: U.S. Geological Survey - Department of the Interior/USGS. U.S. Geological Survey/photo by Leo Nico.</p>
+          <p class="common-name">Black Carp</p>
+          <p class="scientific-name">Mylopharyngodon piceus <span class="citation">("Black Carp | National Invasive Species Information Center", n.d.)</span></p>
+          <p class="species-facts">
+            <ul>
+              <li>
+                Can grow up to a length of 7 feet <span class="citation">(New York Invasive Species Information, 2019)</span>
+              </li>
+              <li>
+                Large scaled <span class="citation">("Mylopharyngodon piceus (Richardson, 1846)", 2022)</span>
+              </li>
+              <li>
+                Typically "brown to black in color" <span class="citation">("Black carp (Mylopharyngodon piceus)", n.d.)</span>
+              </li>
+              <li>Have "blue-grey to white bellies" <span class="citation">("Black carp (Mylopharyngodon piceus)", n.d.)</span></li>
+            </ul>
+          </p>
+        </li>
+        <li class="species">
+          <img src="./assets/silver-carp.jpg" class="species-image" alt="Silver carp in a bucket"></img>
+          <p class="image-credits"><a href="https://commons.wikimedia.org/wiki/File:Silver_carp.jpg">USFWS</a>, Public domain, via Wikimedia Commons</p>
+          <p class="common-name">Silver Carp</p>
+          <p class="scientific-name">Hypophthalmichthys molitrix <span class="citation">("Silver Carp | National Invasive Species Information Center", n.d.)</span></p>
+          <ul class="species-facts">
+            <li>Small, silver scales <span class="citation">("Silver Carp (Hypophthalmichthys molitrix)", n.d.)</span></li>
+            <li>Grayish black/olive green on back <span class="citation">("California's Invaders: Silver Carp", n.d.)</span></li>
+            <li>Up to 3 feet long <span class="citation">("Silver Carp (Hypophthalmichthys molitrix)", n.d.)</span></li>
+            <li>Commonly reaches 20 pounds <span class="citation">("Silver Carp (Hypophthalmichthys molitrix)", n.d.)</span></li>
+            <li>Uniform silver sides <span class="citation">("California's Invaders: Silver Carp", n.d.)</span></li>
+          </ul>
+        </li>
+      </ul>
+      <h2>The Invasion</h2>
+      <h3>States with Invasive Carp</h3>
+      <p>Number of states with each invasive carp (grass, bighead, silver, black)</p>
+      <div id="invaded-states-stats">
+        <ul>
+          <li id="grass-carp-invasion-stat">Grass: <span class="invasion-number">47</span></li>
+          <li id="bighead-carp-invasion-stat">Bighead: <span class="invasion-number">28</span></li>
+          <li id="silver-carp-invasion-stat">Silver: <span class="invasion-number">25</span></li>
+          <li id="black-carp-invasion-stat">Black: <span class="invasion-number">9</span></li>
+        </ul>
+        <p>Source: U.S. Geological Survey. Data last retrieved November 2023.</p>
+      </div>
+      <h3>Invaded Areas</h3>
+      <p>Asian carp have mostly invaded the Mississippi River <span class="citation">("Invasive Carp | National Invasive Species Information Center", n.d.).</span>. In May 2019, grass carp were reported as a threat to vegetation in 45 states, the highest number of states that a species invasive carp have invaded in the US <span class="citation">(New York Invasive Species Information, 2019)</span>. However, according to data from the U.S. Geological Survey, this number may have grown up to an estimated 47 states <span class="citation">("Ctenopharyngodon idella (Valenciennes in Cuvier and Valenciennes, 1844)", 2020)</span>.</p>
+      <h3>How It Got Here</h3>
+      <p>These species were primarily introduced to stock aquaculture facilities to control species <span class="citation">(Biological Threats and Invasive Species Research Program, 2022)</span>. Some types of carp may have been brought as part of food markets <span class="citation">(U.S. Geological Survey, n.d.)</span>.</p>
+      <p>These types of carp escaped their way out of where they were stocked and found themselves in the Mississippi River, where they invaded <span class="citation">("Invasive Carp | National Invasive Species Information Center", n.d.)</span>. Floods may also have played a part in escapement of the Asian carp <span class="citation">("California's Invaders: Bighead Carp", n.d., "California's Invaders: Black Carp", n.d.)</span> Accidential releases can also cause carp to end up in the Mississippi River <span class="citation">("Invasive Carp | National Invasive Species Information Center", n.d.)</span>. For example, grass carp was released into Arkansas waterways, and spread to the Arkansas River, and eventually into the Mississippi River drainage <span class="citation">("California's Invaders: Grass Carp", n.d.)</span>.</p>
+      <p>Asian carp can also invade other areas through:</p>
+      <ul>
+        <li>"Live bait" (w. "young carp") <span class="citation">(National Park Service, 2023)</span></li>
+        <li>Watercraft carrying invasive carp <span class="citation">(National Park Service, 2023)</span></li>
+        <li>Dispersion throughout open waters <span class="citation">("California's Invaders: Silver Carp", n.d.)</span></li>
+      </ul>
+      <h2>Problems</h2>
+      <img src="./assets/grass-carp-in-water.jpg" alt="Grass carp swimming in water in front of green plants" id="problems-image"/>
+      <p class="image-credits">Image credit: <a href="https://commons.wikimedia.org/wiki/File:Grass_Carp.jpg">Engbretson, Eric</a>, Public domain, via Wikimedia Commons</p>
+      <h3>Ecological Problems</h3>
+      <ul>
+        <li>
+          Silver and bighead carp are <em>filter feeders</em>, and eat plankton fairly aggressively <span class="citation">(New York Invasive Species Information, 2019)</span>. Since native fish need the plankton through their young stages, it can throw off the food web and make it less stable <span class="citation">(New York Invasive Species Information, 2019)</span>. Bighead carp can be considered to outcompete native fish through this way <span class="citation">(New York Invasive Species Information, 2019)</span>.
+        </li>
+        <li>Black carp can eat native endangered/reintroduced species, putting them at risk <span class="citation">(National Park Service, 2023)</span>.</li>
+        <li>
+          Silver and bighead carp can also outcompete native sport fish <span class="citation">("Invasive carp in Southeastern waters | U.S. Fish & Wildlife Service", n.d.)</span>.
+        </li>
+        <li>Can dominate streams and push out species <span class="citation">(National Park Service, 2023).</li>
+        <li>Black carp can consume mussels, which can improve water quality <span class="citation">("Invasive carp in Southeastern waters | U.S. Fish & Wildlife Service", n.d.)</span>. Removing these mussels through the introduction of black carp can decrease water quality.</li>
+        <li>Asian carp makes up <b>95%</b> of the biomass in the Mississippi and Illinois River systems <span class="citation">(New York Invasive Species Information, 2019)</span>.</li>
+        <li>
+          Any remaining plants that grass carp do not eat will get into the water, which can create algal blooms, and this reduces water clarity and oxygen <span class="citation">(Holmes, 2021)</span>.
+        </li>
+        <li>Grass carp can carry Asian tapeworms <span class="citation">("California's Invaders: Grass Carp", n.d.)</span>.</li>
+        <li>Grass carp can impact spawning habitats when they disturb water during feeding  <span class="citation">("California's Invaders: Grass Carp", n.d.)</span>.</li>
+        <li>Grass carp can have a big appetite for plants, which can wipe out a lot of vegetation from the water. This reduces the availability of habitats <span class="citation">("California's Invaders: Grass Carp", n.d.)</span>.</li>
+      </ul>
+      <h3>Economic Problems</h3>
+      <ul>
+        <li>
+          Silver carp can jump up to 10 feet out of the water and often together when it hears boats or motors, which can damage equipment or even pose an injury risk to people
+ <span class="citation">(New York Invasive Species Information, 2019)</span>.
+        </li>
+        <li>Invasive carp aren't worth much in money <span class="citation">(Holmes, 2021)</span>.</li>
+        <li>Invasive carp can reduce populations of native fish that anglers depend on <span class="citation">(National Park Service, 2023)</span></li>
+        <li>If the carp get into the Great Lakes, it may threaten the $7 billion fishing industry <span class="citation">(National Park Service, 2023)</span></li>
+      </ul>
+      <img src="./assets/cssc.jpg" id="cssc-image" alt="Image of the Chicago Sanitary and Ship Canal"/>
+      <p class="image-credits"><a href="https://commons.wikimedia.org/wiki/File:20160329_091_Sanitary_%26_Ship_Canal_@_Loomis_St._(31409356783).jpg">"20160329 091 Sanitary & Ship Canal @ Loomis St." by David Wilson from Oak Park, Illinois, USA</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons</p>
+      <h2>What People are Doing</h2>
+      <p>In the Chicago Sanitary and Ship Canal, there are electrical barriers that create a field of current to deter carp from swimming through, to prevent the further spread of these species into the Great Lakes <span class="citation">(New York Invasive Species Information, 2019)</span>. A bio-acoustic fence in Kentucky is being deployed to use air bubbles, sound and light to reduce movement of carp through locks in large rivers <span class="citation">("Invasive carp in Southeastern waters | U.S. Fish & Wildlife Service", n.d.)</span>.</p>
+      <p>The University of Minnesota's Aquatic Invasive Species Research Center has also found that some kinds of invasive carp can be deterred through sound and air curtains, biocontrol through viruses, and food odors that lure carp to poisoned food <span class="citation">(Minnesota Aquatic Invasive Species Research Center, n.d.)</span>. Improvements in netting and catching fish, work on remote sensing to improve harvests of carp, and commercial fishing also aim to reduce the populations of invasive carp <span class="citation">(Invasive Carp Regional Coordinating Committee, n.d.)</span>. A technique called the Modified Unified Method is also being deployed to use boats, nets, speakers and gear to gather and remove carp, which in past testing has yielded up to 90% of carp <span class="citation">("Invasive carp in Southeastern waters | U.S. Fish & Wildlife Service", n.d.)</span>.</p>
+      <h2 id="take-action">What You Can Do</h2>
+      <ul id="tips-cards">
+        <li>
+          <p class="card-heading">Caught Carp? Report It</p>
+          <p>Do not release invasive carp if you caught it <span class="citation">("California's Invaders: Bighead Carp", n.d.)</span>. First, preserve the fish by putting it in ice or a plastic bag <span class="citation">(Asian Carp Regional Coordinating Committee, 2010)</span>. Then, contact your state's personeel immediately <span class="citation">("California's Invaders: Bighead Carp", n.d.)</span>.</p>
+        </li>
+        <li>
+          <p class="card-heading">Be Careful with Bait</p>
+          <p>Put unwanted bait in the trash <span class="citation">(National Park Service, 2023)</span>. You also shouldn't move the carp as bait <span class="citation">(Tennessee Wildlife Resources Agency, n.d.)</span>. You also shouldn't use Asian carp as your bait. Do not release bait or carp into another body of water <span class="citation">("Clean In Clean Out", n.d.)</span>.</p>
+        </li>
+        <li>
+          <p class="card-heading">Do Your Research</p>
+          <p>Check your state’s laws about invasive species to learn more about what not to do when fishing or what not to import or handle.</p>
+        </li>
+        <li>
+          <p class="card-heading">Clean Your Boat</p>
+          <p>Clean your boat and drain your equipment after completing your boat ride <span class="citation">("Clean In Clean Out", n.d.)</span>. You can also run your equipment for a short amount of time to discharge any water <span class="citation">("Clean In Clean Out", n.d.)</span>.</p>
+        </li>
+      </ul>
+    </div>
+    <div id="footer">
+      <h2>Credits</h2>
+      <p>This project would have not been possible without the following sources, which were useful in the writing of this website.</p>
+      <div id="expand-resources">
+        <h3>Expanded resources</h3> <button id="expand-resource-button"><img src="./assets/expand-more.svg" id="expand-resource-img"/></button>
+        <span id="expanded-resources">
+          <p class="ref">Asian Carp Regional Coordinating Committee. (2010). <em>What to Do If You Think You Have Found an Asian Carp.</em> Invasive Carp US. https://invasivecarp.us/Documents/WhatToDoIfYouFindAnAsianCarp.pdf</p>
+          <p class="ref">Biological Threats and Invasive Species Research Program. (2022, September 30). <em>Invasive Species We Study: Invasive Carp | U.S. Geological Survey.</em> USGS.gov. https://www.usgs.gov/programs/biological-threats-and-invasive-species-research-program/science/invasive-species-we-study</p>
+          <p class="ref">California Department of Fish and Wildlife. (n.d.). <em>California's Invaders: Bighead Carp.</em> California Department of Fish and Wildlife. https://wildlife.ca.gov/Conservation/Invasives/Species/Bighead-Carp</p>
+          <p class="ref">California Department of Fish and Wildlife. (n.d.). <em>California's Invaders: Black Carp</em>. California Department of Fish and Wildlife. https://wildlife.ca.gov/Conservation/Invasives/Species/Black-Carp</p>
+          <p class="ref">California Department of Fish and Wildlife. (n.d.). <em>California's Invaders: Grass Carp</em>. California Department of Fish and Wildlife. https://wildlife.ca.gov/Conservation/Invasives/Species/Grass-Carp</p>
+          <p class="ref">California Department of Fish and Wildlife. (n.d.). <em>California's Invaders: Silver Carp</em>. California Department of Fish and Wildlife. https://wildlife.ca.gov/Conservation/Invasives/Species/Silver-Carp</p>
+          <p class="ref">Holmes, M. (2021, April 28). <em>Invasive Species: Why Are Asian Carp a Problem?</em> Treehugger. https://www.treehugger.com/invasive-species-asian-carp-5114466</p>
+          <p class="ref">Invasive Carp Regional Coordinating Committee. (n.d.). <em>Control | InvasiveCarp.us</em>. Invasive Carp US. https://invasivecarp.us/control.html</p>
+          <p class="ref">Minnesota Aquatic Invasive Species Research Center. (n.d.). <em>Invasive Carp | Minnesota Aquatic Invasive Species Research Center (MAISRC)</em>. Minnesota Aquatic Invasive Species Research Center (MAISRC). https://maisrc.umn.edu/invasive-carp</p>
+          <p class="ref">Minnesota Department of Natural Resources. (n.d.). <em>Black carp (Mylopharyngodon piceus)</em>. Minnesota DNR. https://www.dnr.state.mn.us/invasives/aquaticanimals/black-carp/index.html</p>
+          <p class="ref">Minnesota Department of Natural Resources. (n.d.). <em>Clean In Clean Out</em>. Minnesota DNR. https://www.dnr.state.mn.us/invasives/preventspread_watercraft.html</p>
+          <p class="ref">National Park Service. (2023, March 6). <em>Invasive Carp Overview - Mississippi National River & Recreation Area</em>. National Park Service. https://www.nps.gov/miss/learn/nature/ascarpover.htm</p>
+          <p class="ref">New York Invasive Species Information. (2019, May 30). <em>Asian Carp – New York Invasive Species Information</em>. New York Invasive Species Information. https://nyis.info/invasive_species/asian-carp</p>
+          <p class="ref">Nico, L., Fuller, P., & Li, J. (2023, August 30). <em>Hypophthalmichthys nobilis (Richardson, 1845)</em>. U.S. Geological Survey, Nonindigenous Aquatic Species Database. https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=551</p>
+          <p class="ref">Nico, L. G., Fuller, P. L., Schofield, P. J., Neilson, M. E., Benson, A. J., & Li, J. (2020, January 15). <em>Ctenopharyngodon idella (Valenciennes in Cuvier and Valenciennes, 1844)</em>. U.S. Geological Survey, Nonindigenous Aquatic Species Database. https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=514</p>
+          <p class="ref">Nico, L. G., Li, J., & Fuller, P. (2023, August 30). <em>Hypophthalmichthys molitrix (Valenciennes in Cuvier and Valenciennes, 1844)</em>. U.S. Geological Survey, Nonindigenous Aquatic Species Database. https://nas.er.usgs.gov/queries/FactSheet.aspx?speciesID=549</p>
+          <p class="ref">Nico, L. G., & Neilson, M. E. (2022, September 8). <em>Mylopharyngodon piceus (Richardson, 1846)</em>. U.S. Geological Survey, Nonindigenous Aquatic Species Database. https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=573</p>
+          <p class="ref">Tennessee Wildlife Resources Agency. (n.d.). <em>Invasive Carp in Tennessee, Information and Images</em>. TN.gov. https://www.tn.gov/twra/wildlife/fish/invasive-carp.html</p>
+          <p class="ref">U.S. Department of Agriculture. (n.d.). <em>Bighead Carp | National Invasive Species Information Center</em>. National Invasive Species Information Center. https://www.invasivespeciesinfo.gov/aquatic/fish-and-other-vertebrates/bighead-carp</p>
+          <p class="ref">U.S. Department of Agriculture. (n.d.). <em>Black Carp | National Invasive Species Information Center</em>. National Invasive Species Information Center (NISIC). https://www.invasivespeciesinfo.gov/aquatic/fish-and-other-vertebrates/black-carp</p>
+          <p class="ref">U.S. Department of Agriculture. (n.d.). <em>Invasive Carp | National Invasive Species Information Center</em>. National Invasive Species Information Center (NISIC). https://www.invasivespeciesinfo.gov/aquatic/fish-and-other-vertebrates/invasive-carp</p>
+          <p class="ref">U.S. Department of Agriculture. (n.d.). <em>Silver Carp | National Invasive Species Information Center</em>. National Invasive Species Information Center (NISIC). https://www.invasivespeciesinfo.gov/aquatic/fish-and-other-vertebrates/silver-carp</p>
+          <p class="ref">U.S. Fish and Wildlife Service. (n.d.). <em>Invasive carp in Southeastern waters | U.S. Fish & Wildlife Service</em>. U.S. Fish and Wildlife Service. https://fws.gov/story/invasive-carp-southeastern-waters</p>
+          <p class="ref">U.S. Fish and Wildlife Service. (n.d.). <em>Silver Carp (Hypophthalmichthys molitrix) | U.S. Fish & Wildlife Service</em>. U.S. Fish and Wildlife Service. https://www.fws.gov/species/silver-carp-hypophthalmichthys-molitrix</p>
+          <p class="ref">U.S. Geological Survey. (n.d.). <em>What are Invasive Carp? | U.S. Geological Survey</em>. USGS.gov. https://www.usgs.gov/faqs/what-are-invasive-carp</p>
+        </span>
+      </div>
+      <p>The following images that were used in this website and their sources are listed below.</p>
+      <ul>
+        <li>Silver carp intro image: <a href="https://fws.gov/media/silver-carp-jumping">"Silver carp jumping"</a> by Ryan Hagerty/USFWS - Public Domain. Retrieved from U.S Fish and Wildlife Service, fws.gov</li>
+        <li>Bighead carp image: <a href="https://commons.wikimedia.org/wiki/File:0414jfRiverside_Hypophthalmichthys_nobilis_Masantol_Roads_Pampanga_River_Districts_Villagesfvf_07.JPG">Judgefloro</a>, Public domain, via Wikimedia Commons</li>
+        <li>Grass carp in hands image: <a href="https://commons.wikimedia.org/wiki/File:Grass_carp_01.jpg">USFWS</a>, Public domain, via Wikimedia Commons</li>
+        <li>Black carp image: <a href="https://commons.wikimedia.org/wiki/File:Mylopharyngodon_piceus.jpg">Leo Nico, (United States Geological Survey)(Zp at cs.wikipedia)</a>, Public domain, via Wikimedia Commons. Image credit: U.S. Geological Survey - Department of the Interior/USGS. U.S. Geological Survey/photo by Leo Nico.</li>
+        <li>Silver carp image: <a href="https://commons.wikimedia.org/wiki/File:Silver_carp.jpg">USFWS</a>, Public domain, via Wikimedia Commons</li>
+        <li>Grass carp in water image: <a href="https://commons.wikimedia.org/wiki/File:Grass_Carp.jpg">Engbretson, Eric</a>, Public domain, via Wikimedia Commons</li>
+        <li>Chicago Sanitary and Ship Canal image: <a href="https://commons.wikimedia.org/wiki/File:20160329_091_Sanitary_%26_Ship_Canal_@_Loomis_St._(31409356783).jpg">"20160329 091 Sanitary & Ship Canal @ Loomis St." by David Wilson from Oak Park, Illinois, USA</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons</li>
+      </ul>
+      <p>The resources were useful in the coding of this website:</p>
+      <ul>
+        <li>Unordered list element: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">MDN Web Docs</a></li>
+        <li>Linking stylesheet (I forgot): <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link">MDN Web Docs</a></li>
+        <li>Google Fonts code: <a href="https://developers.google.com/fonts/docs/css2">Google Fonts</a></li>
+        <li>Viewport meta tag (so it looks okay on mobile devices: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag">MDN Web Docs</a></li>
+        <li>Getting the anchors to work (partial ToC inspiration): <a href="https://www.tipsandtricks-hq.com/simple-table-of-contents-toc-using-pure-html-and-css-code-9217">tipsandtricks-hq.com</a></li>
+        <li>Uppercase text in CSS: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform">MDN Web Docs</a></li>
+        <li>Changing font styles: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-style">MDN Web Docs</a></li>
+        <li>Rotating elements: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate">MDN Web Docs</a></li>
+        <li>APA reference indentation trick: <a href="https://resilienteducator.com/instructional-design/hanging-indents-in-html-and-css-for-instructional-designers/">resilienteducator.com</a></li>
+      </ul>
+      <p>Some icons were gathered from Google Fonts, available at <a href="https://fonts.google.com/icons">fonts.google.com</a>.</p>
+      <p>The font is "<a href="https://fonts.google.com/specimen/Inter">Inter</a>" by Rasmus Andersson (licensed under the <a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Open Font License</a>), retrieved from Google Fonts.</p>
+    <p id="end-text">Made with love ❤️ by normalperson543 and <a href="https://github.com/normalperson543/asian-carp-invasive-species/graphs/contributors">these contributors.</a></p>
+    </div>
+  </body>
+</html>
